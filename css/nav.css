@@ -1,0 +1,86 @@
+header {
+  display: block;
+  height: 56px;
+  background-color: #f1f1f1;
+  box-shadow: 20px 40p 60px rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid #e2e2e2;
+  position: relative;
+  z-index: 99;
+}
+
+header section {
+  display: flex;
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-left__nav {
+  display: block;
+  width: 100px;
+  margin: auto;
+  position: relative;
+  padding-top: 16px;
+}
+
+.header-left__nav .btn-nav {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.header-left__nav .btn-search {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.header-right {
+  flex: 1;
+  margin: auto;
+}
+.header-right__btn {
+  display: block;
+  margin: 0 80px;
+}
+
+.btn-subscribe {
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+}
+
+.btn-login {
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+}
+
+.btn{
+    text-transform: uppercase;
+    border: 1px solid #326891;
+    background-color: #6288a5;
+    translate: ease 0.6s;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    line-height: 11px;
+
+}
+
+.header-center {
+  align-self: center;
+  flex: 2;
+}
+
+.header-center__logo {
+  width: 195px;
+  height: 26px;
+  margin: auto;
+  display: block;
+  align-items: center;
+}
