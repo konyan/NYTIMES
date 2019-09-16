@@ -19,13 +19,13 @@ main .news-content {
 }
 
 section .title {
+  text-align: center;
   position: relative;
-  display: block;
-  width: 960px;
-  margin: 0;
-  display: flex;
+  width: 100%;
+  margin: 1rem 0;
   text-size-adjust: 100%;
-  padding: 16px;
+  display: block;
+  text-align: center;
 }
 
 h1 {
@@ -36,6 +36,7 @@ h1 {
   line-height: 48px;
   word-spacing: 6px;
   text-align: left;
+  padding: 0;
 }
 
 section .photoviewer-wrapper {
