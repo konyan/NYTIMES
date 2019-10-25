@@ -41,35 +41,35 @@ header section {
 }
 
 .header-right {
-  flex: 1;
+  flex: 1.5;
   margin: auto;
 }
+
 .header-right__btn {
   display: block;
   margin: 0 80px;
 }
 
 .btn-subscribe {
-  padding: 11px 12px 8px;
+  padding: 0.55rem 0.4rem;
   border-radius: 3px;
 }
 
 .btn-login {
-  padding: 11px 12px 8px;
+  padding: 0.55rem 0.4rem;
   border-radius: 3px;
 }
 
-.btn{
-    text-transform: uppercase;
-    border: 1px solid #326891;
-    background-color: #6288a5;
-    translate: ease 0.6s;
-    font-size: 11px;
-    font-weight: 700;
-    cursor: pointer;
-    color: #fff;
-    line-height: 11px;
-
+.btn {
+  text-transform: uppercase;
+  border: 1px solid #326891;
+  background-color: #6288a5;
+  translate: ease 0.6s;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  line-height: 11px;
 }
 
 .header-center {
