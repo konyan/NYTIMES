@@ -1,0 +1,101 @@
+.footer-navigation {
+  display: block;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.footer-navigation .footer-main {
+}
+
+.site-index-header {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0 0.5rem 0;
+  height: 40px;
+  justify-content: space-between;
+  border-bottom: none;
+  border-top: 1px solid #d4d4d4;
+}
+
+.site-index-header .logo-btn {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.logo-btn svg {
+  width: 180px;
+}
+
+.site-index-header .go-home-nav {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #424242;
+}
+
+a {
+  color: #434343;
+  text-decoration: none;
+}
+
+.footer-nav {
+}
+
+.footer-nav-body {
+  display: flex;
+}
+
+.nav-wrapper {
+  flex-grow: 1;
+}
+
+.nav-wrapper .nav-header {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0.4rem 0;
+  text-transform: uppercase;
+}
+
+.nav-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper ul li {
+  display: block;
+  padding: 0.1rem 0;
+  width: 100%;
+}
+
+.nav-wrapper ul li a {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.nav-wrapper ul li a .nav-item-svg {
+  width: 16px;
+  margin-right: 0.5rem;
+}
+
+.last-wrapper {
+  border-left: 1px dotted #d4d4d4;
+  padding: 0 0.8rem;
+}
+
+.type-2 {
+  font-size: 10px !important;
+}
+
+.border-top {
+  border-top: 1px dotted #d4d4d4;
+  margin-top: .8rem !important;
+}
+
+.margin-top {
+  margin-top: 2rem !important;
+}
