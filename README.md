@@ -1,6 +1,6 @@
 # About the project
 ​
-  ## [ NYTIME News Detail Clone ]:(https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+  ## Project Title : [NYTIME News Detail Clone]:(https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
   
 ​
   The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions. The assignment is [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements) 
