@@ -7,14 +7,8 @@ main .ads-content {
   padding: 2rem;
 }
 
-section div > img {
-  padding-top: 8px;
-}
-
 main .news-content {
   display: block;
-  /* text-align: center; */
-  /* width: 960px; */
   margin: 0 auto;
 }
 
@@ -25,7 +19,6 @@ section .title {
   margin: 1rem 0;
   text-size-adjust: 100%;
   display: block;
-  text-align: center;
 }
 
 h1 {
@@ -41,23 +34,6 @@ h1 {
 
 section .photoviewer-wrapper {
   position: relative;
-  text-align: center;
-}
-
-.photoviewer-wrapper img {
-  width: 960px;
-  display: block;
-  margin: 0 auto;
-}
-
-.photoviewer-wrapper span {
-  font-size: 14px;
-  width: 960px;
-  display: block;
-  text-align: left;
-  color: #666;
-  padding: 8px 0;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -87,20 +63,6 @@ section .photoviewer-wrapper {
   margin: 0;
 }
 
-.writter-other ul {
-  display: flex;
-  flex: 1;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: flex-end;
-}
-
-.writter-other ul li {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-}
-
 article p {
   word-spacing: 4px;
   text-size-adjust: 100%;
@@ -127,14 +89,28 @@ article ul {
   list-style: none;
   max-width: 600px;
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
   font-size: 14px;
   padding-inline-start: 0;
+}
+
+.writter-other ul {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
 }
 
 article ul li {
   margin: 0;
   padding: 0;
+}
+
+.writter-other ul li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
 }
 
 article a {
@@ -148,10 +124,6 @@ article a {
   display: block;
 }
 
-article p strong{
-  display: inline !important;
-}
-
 article strong {
   font-size: 18px;
   font-weight: bolder;
@@ -161,10 +133,18 @@ article strong {
   padding: 0;
 }
 
+article p strong {
+  display: inline !important;
+}
+
 article img {
   margin: 1rem auto 0.5rem;
   display: block;
   max-width: 680px;
+}
+
+section div > img {
+  padding-top: 8px;
 }
 
 article span {
@@ -173,6 +153,22 @@ article span {
   margin: 0 auto 3rem;
   font-size: 12px;
   padding: 0;
+}
+
+.photoviewer-wrapper span {
+  font-size: 14px;
+  width: 960px;
+  display: block;
+  text-align: left;
+  color: #666;
+  padding: 8px 0;
+  margin: 0 auto;
+}
+
+.photoviewer-wrapper img {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
 }
 
 article .end {

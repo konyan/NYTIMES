@@ -45,7 +45,6 @@
 }
 
 .article-card .card {
-  display: inline;
   position: relative;
   flex-direction: column;
   display: flex;
