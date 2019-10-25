@@ -62,8 +62,6 @@ section .photoviewer-wrapper {
 }
 
 .news {
-  /* width: 600px;
-  max-width: 600px; */
   margin: 1.5rem auto;
 }
 
@@ -71,7 +69,7 @@ section .photoviewer-wrapper {
   text-decoration-color: #ccc;
   display: block;
   width: 600px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 800;
   margin: 0 auto;
 }
@@ -107,7 +105,7 @@ article p {
   word-spacing: 4px;
   text-size-adjust: 100%;
   display: block;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.65rem;
   margin: 0.5rem auto;
   width: 600px;
@@ -150,13 +148,17 @@ article a {
   display: block;
 }
 
+article p strong{
+  display: inline !important;
+}
+
 article strong {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   display: block;
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0;
 }
 
 article img {
