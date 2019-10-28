@@ -1,5 +1,5 @@
 main{
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 main .ads-content {
@@ -8,7 +8,7 @@ main .ads-content {
   margin: 0 auto;
   text-align: center;
   display: block;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 main .news-content {
