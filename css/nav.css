@@ -1,10 +1,11 @@
 header {
   display: block;
-  height: 56px;
+  height: 40px;
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
-  position: relative;
   z-index: 99;
+  position: fixed;
+  width: 100%;
 }
 
 header nav {
@@ -19,24 +20,33 @@ header nav {
 }
 
 .header-left__nav {
-  display: block;
-  width: 100px;
+  display: flex;
+  width: 100%;
   margin: auto;
   position: relative;
-  padding-top: 16px;
+  padding-top: 0.75rem;
 }
 
 .header-left__nav .btn-nav {
-  width: 24px;
-  height: 24px;
+  width: 1.2rem;
+  height: 1.2rem;
   display: inline-block;
   margin-right: 24px;
+  margin-left: 1rem;
 }
 
 .header-left__nav .btn-search {
-  width: 24px;
-  height: 24px;
+  width: 1.2rem;
+  height: 1.2rem;
   display: inline-block;
+}
+
+.header-menu-title {
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
 }
 
 .header-right {
@@ -82,4 +92,13 @@ header nav {
   margin: auto;
   display: block;
   align-items: center;
+}
+
+.text {
+  text-decoration: underline;
+}
+
+.text-subscribe {
+  font-size: 0.8rem;
+  margin-right: 0.6rem;
 }

@@ -1,7 +1,11 @@
+main{
+  padding: 2rem;
+}
+
 main .ads-content {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.15);
-  margin: 1rem auto;
+  margin: 0 auto;
   text-align: center;
   display: block;
   padding: 2rem;
