@@ -1,5 +1,17 @@
-html,body{
-    width: 100%;
-    margin:0;
-    padding:  0;
+@import url("./nav.css");
+@import url("./body.css");
+@import url("./inflaction.css");
+@import url("./youtube.css");
+@import url("./read-more.css");
+@import url("./footer-nav.css");
+@import url("./footer.css");
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  max-height: 100%;
 }

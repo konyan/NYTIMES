@@ -1,0 +1,26 @@
+.footer-container {
+  width: 80%;
+  margin: 1rem auto;
+  border-top: 1px solid #d4d4d4;
+  padding: 0.6rem;
+}
+
+.footer-container-nav {
+  display: block;
+  width: 100%;
+}
+
+.footer-container ul {
+  list-style: none;
+  display: inline;
+  font-size: 10px;
+}
+
+.footer-container ul li {
+  display: inline-block;
+}
+
+.footer-container ul li a {
+  margin-right: 8px;
+  color: #626262;
+}
